@@ -1,7 +1,174 @@
+body{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     margin: auto;
 }
 
 img{
     width: 100%;
+}
+
+/* common classes */
+.primary-text{
+    color: #56a79a;
+}
+
+.primary-background{
+    background: #56a79a;
+}
+
+/* HEADER */
+#main-header{
+    border-bottom: 1px solid #56a79a;
+    background-color: rgb(5, 90, 10);
+}
+
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    list-style: none;
+    padding-right: 20px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li.current a, #navbar a:hover{
+    color: #56a79a;
+    border-bottom: 1px solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/* SHOWCASE */
+#showcase{
+    background: url('../images/showcase.JPG') no-repeat center center;
+    border-bottom: 1px solid #56a79a;
+    margin-bottom: 30px;
+}
+
+#showcase .row{
+    height: 550px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin: 0;
+}
+
+
+#showcase .showcase-content{
+    background: #333;
+    color: #fff;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+
+/* FEATURES */
+#features h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#features p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+#features .fa{
+    font-size: 60px;
+    color: #56a79a;
+}
+
+
+/* INFO */
+#info{
+    background: #333 url('../images/info-bg.JPG') no-repeat;
+    color: #fff;
+}
+
+#info h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#info ul{
+    list-style: none;
+    padding: 0;
+}
+
+#info li{
+    line-height: 2em;
+    font-size: 20px;
+}
+
+#info .fa{
+    margin-right: 7px;
+}
+
+
+/* COMPANY */
+#company{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"]{
+    padding: 7px;
+}
+
+#company button{
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+#main-footer{
+    background: #56a79a;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media(max-width:800px){
+    #showcase h1{
+        font-size: 30px;
+    }
 }
