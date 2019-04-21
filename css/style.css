@@ -26,7 +26,8 @@ img{
 /* HEADER */
 #main-header{
     border-bottom: 1px solid #56a79a;
-    background-color: rgb(5, 90, 10);
+    /* background-color: rgb(5, 90, 10); */
+    background-color: #333
 }
 
 #navbar{
@@ -163,6 +164,56 @@ img{
 }
 
 
+/* ALL PAGES */
+#page{
+    margin-bottom: 140px;
+}
+
+/* SERVICES */
+.services ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.services ul li:nth-child(odd){
+    background: #333;
+    color: #fff;
+}
+
+.services ul li:nth-child(even){
+    background: #56a79a;
+    color: #fff;
+}
+
+.contact form{
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact form input[type="text"]{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea{
+    width: 50%;
+    height: 100px;
+}
+
+.contact form button{
+    width: 50%;
+    padding: 10px 0;
+    border: 0;
+    background: #222;
+    color: #fff;
+}
+
+
+.contact form label{
+    text-transform: uppercase;
+}
 
 
 
