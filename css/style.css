@@ -53,7 +53,7 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('../images/showcase.JPG') no-repeat center center;
+    background: url('../images/showcase.PNG') no-repeat center center;
     border-bottom: 1px solid #56a79a;
     margin-bottom: 30px;
 }
@@ -104,7 +104,7 @@ img{
 
 /* INFO */
 #info{
-    background: #333 url('../images/info-bg.JPG') no-repeat;
+    background: #333 url('../images/info-bg.PNG') no-repeat;
     color: #fff;
 }
 
